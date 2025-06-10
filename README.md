@@ -18,6 +18,7 @@ An introduction to Sysadmin.
   - TTY mode enabled
   - Sudo restricted from `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin`
 - Users `root` and `[username]` must exist
+- User `[username]` must belong to groups `user42` and `sudo`
 - Implement strong password policy:
   - Expires every 30 days
   - Min 2 days between password modifications
