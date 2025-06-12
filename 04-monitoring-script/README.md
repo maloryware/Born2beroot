@@ -34,7 +34,7 @@ This one's fun. Let's define what we need to display, how we can get that inform
 	<br>
 	Either way, the key process is the same: Divide free by total.
 	### Pick your Path
-	<details><summary> <b><i>You: Fuck it, we're one-lining. The evaluator can munch on my unwashed genitalia.</b></i></summary>
+	<details><summary> <b><i>You: <u>[CLICK TO EXPAND]</u> Fuck it, we're one-lining. The evaluator can munch on my unwashed genitalia.</b></i></summary>
 	<br>
 
 	- First of all, you're unloved.	Doing this shit will not bring the kids back. But whatever. You wanna be the villain? Go for it.<br>
@@ -53,7 +53,7 @@ This one's fun. Let's define what we need to display, how we can get that inform
 	<br> Go on, dipshit. Open the `monitoring.sh` in this directory. You know you wanna.
 
 	<br></details>
-	<details><summary> <b><i>You: Fine, you know what? I feel like being a tolerable human being today.</b></i></summary>
+	<details><summary> <b><i>You: <u>[CLICK TO EXPAND]</u> Fine, you know what? I feel like being a tolerable human being today.</b></i></summary>
 	<br>
 
 	- Great! Thank you. Thank you, really. What was going to come from the alternative was not worth being shunned by multiple different rungs of your very own bloodline.
@@ -68,9 +68,15 @@ This one's fun. Let's define what we need to display, how we can get that inform
 		<br>
 		As such, a secondary set of variables (`XYZ_MEM_H`) can be relied upon for representing the memory in a readable manner (`free -h`).
 
+		<details> 
+			<summary>
+				<i><u>[CLICK TO EXPAND]</u> Note from the editor: 
+			</summary>
+				the amphetamines stopped taking effect so i didnt have the energy to finish this xd<br>dm me and remind me to finish ts and i might<br>-mal</i>
+		</details>
 	<br></details>
 
-</details>
+	
 
 ## Setup automatic running at boot & every 10 minutes
 
