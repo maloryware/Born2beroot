@@ -21,4 +21,8 @@ Time for another arduous and extenuating task.
 3. Add the rule (`sudo ufw allow 4242`)
 4. Restart UFW (I'll let you guess this one. Hint: `systemctl`.)
 5. **(Optional)** Confirm the status of UFW (`sudo ufw status numbered`)
+
+
+
+
 ![](02-01.png)
