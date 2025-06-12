@@ -59,7 +59,14 @@ This one's fun. Let's define what we need to display, how we can get that inform
 	- Great! Thank you. Thank you, really. What was going to come from the alternative was not worth being shunned by multiple different rungs of your very own bloodline.
 	- Since this process requires reusing previously stored information in slightly different formats, the best you can do here is rely on `bash` variables. 
 
-	- Store
+	- Store the pertinent information to an adequately named variable such as `TOTAL_MEM`, `USED_MEM` and `FREE_MEM` for later access & manipulation. e.g:
+		```
+			TOTAL_MEM=$(free -m | grep Mem | xargs echo | cut -d' ' -f2)
+			USED_MEM=$(free -m | grep Mem | xargs echo | cut -d' ' -f3)
+		```
+		Note: Here we use the `-m` | `--mebi` flag because it forces `free` to respect the desired output format. Using `--mega` will convert values of >1GB to gigabyte representation. Therefore, `-m` permits accurate calculation of the usage percentage.
+		<br>
+		As such, a secondary set of variables (`XYZ_MEM_H`) can be relied upon for representing the memory in a readable manner (`free -h`).
 
 	<br></details>
 
